@@ -1,0 +1,40 @@
+<nav class="navbar d-flex justify-content-between align-items-center px-4 py-2 bg-white shadow-sm">
+  <!-- Logo -->
+  <div class="logo">
+    <a href="index.html">
+      <img src="/imagenes/GranosLogo.png" alt="Logo" style="height: 40px;">
+    </a>
+  </div>
+
+  <!-- Enlaces -->
+  <div class="nav-wrapper">
+    <ul class="nav-links list-unstyled d-flex gap-4 m-0">
+      <li><a href="menu.html" class="text-decoration-none text-dark fw-bold">Menú</a></li>
+      <li><a href="restaurantes.html" class="text-decoration-none text-dark fw-bold">Restaurantes</a></li>
+      <li><a href="Nosotros.html" class="text-decoration-none text-dark fw-bold">Nosotros</a></li>
+      <li><a href="Ordenar.html" class="text-decoration-none text-dark fw-bold">Ordenar</a></li>
+      <li><a href="blog.html" class="text-decoration-none text-dark fw-bold">Blog</a></li>
+    </ul>
+  </div>
+
+  <!-- Íconos: Idioma + Carrito + Usuario -->
+  <div class="d-flex align-items-center ms-auto gap-3">
+    <!-- Idioma -->
+    <button class="btn btn-outline-dark" title="Cambiar idioma">
+      <i class="bi bi-globe"></i>
+    </button>
+
+    <!-- Carrito -->
+    <a href="carrito.html" class="btn btn-outline-dark position-relative">
+      <i class="bi bi-cart-fill"></i>
+      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        0
+      </span>
+    </a>
+
+    <!-- Usuario -->
+    <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#loginModal">
+      <i class="bi bi-person-fill"></i>
+    </button>
+  </div>
+</nav>

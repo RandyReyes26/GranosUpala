@@ -1,0 +1,26 @@
+.menu-section {
+  background-color: #fefaf6;
+}
+
+.menu-section h2 {
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  color: #4b2e1e;
+}
+
+.menu-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.menu-card img {
+  height: 220px;
+  object-fit: cover;
+}

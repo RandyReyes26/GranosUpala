@@ -1,0 +1,56 @@
+/* ===== ESTILO PARA LOGIN ===== */
+body {
+  background-color: #f6eee3; /* Fondo crema suave */
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+  background-color: #fffefc;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  font-weight: bold;
+  color: #4b2e1e;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #4b2e1e;
+}
+
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #d6c3b4;
+}
+
+.form-control:focus {
+  border-color: #a47148;
+  box-shadow: 0 0 0 0.2rem rgba(164, 113, 72, 0.25);
+}
+
+.btn {
+  background-color: #a47148;
+  border: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #8b5e3c;
+}
+
+.text-muted {
+  color: #7e6a5f !important;
+}
+
+a {
+  color: #a47148;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #4b2e1e;
+  text-decoration: underline;
+}
