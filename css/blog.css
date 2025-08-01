@@ -1,0 +1,111 @@
+/* ============================= */
+/* INTRO BLOG */
+.intro-blog {
+  background-color: #f6eee9;
+  color: #4b2e1e;
+}
+
+.intro-blog h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.intro-blog p {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+  color: #5c3b28;
+}
+
+/* Imagen decorativa full width */
+.grain-divider {
+  width: 100%;
+  background-color: #f6eee9;
+  overflow: hidden;
+}
+
+.grain-image {
+  width: 100%;
+  height: 149px;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================= */
+/* SECCIÓN DEL BLOG */
+
+.blog-section {
+  background-color: #f9f6f2;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.blog-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #4b2e1e;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+/* ============================= */
+/* TARJETAS DE BLOG */
+
+.card {
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+  transition: transform 0.4s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+.card-body {
+  padding: 1.2rem;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #4b2e1e;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.card .btn {
+  border-radius: 20px;
+  border-color: #4b2e1e;
+  color: #4b2e1e;
+  font-weight: 600;
+  padding: 0.4rem 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.card .btn:hover {
+  background-color: #4b2e1e;
+  color: #fff;
+  border-color: #4b2e1e;
+}
